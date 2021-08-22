@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Cat_Tankogeddon.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{441D9E22-F869-4BE6-8570-7974FD72D95D}</UniqueIdentifier>
+      <UniqueIdentifier>{B58C1039-6085-4EEB-9EAA-C94D3700A527}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cat_Tankogeddon.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5CEEEF32-639A-46AB-8912-FB0ECACB53B8}</UniqueIdentifier>
+      <UniqueIdentifier>{CDA36EF1-4B54-4836-A2F5-C7F294BD4D09}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Cat_Tankogeddon">
-      <UniqueIdentifier>{8E955EA0-CA6A-4483-9C68-5EED1DC22CE1}</UniqueIdentifier>
+      <UniqueIdentifier>{75967638-9A75-41AE-A8E9-28AF72E1042B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Cat_Tankogeddon\Cat_Tankogeddon.Build.cs">
       <Filter>Source\Cat_Tankogeddon</Filter>
@@ -39,6 +39,18 @@
       <Filter>Source\Cat_Tankogeddon</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Cat_Tankogeddon\Cat_TankogeddonGameModeBase.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\TankPawn.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\TankPawn.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\TankPlayerController.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\TankPlayerController.h">
       <Filter>Source\Cat_Tankogeddon</Filter>
     </ClInclude>
   </ItemGroup>
