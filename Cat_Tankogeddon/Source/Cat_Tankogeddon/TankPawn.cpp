@@ -31,7 +31,7 @@ ATankPawn::ATankPawn()
 
 void ATankPawn::MoveForward(float AxisValue)
 {
-	_targetForwardAxisValue = AxisValue;
+	TargetForwardAxisValue = AxisValue;
 }
 
 // Called when the game starts or when spawned

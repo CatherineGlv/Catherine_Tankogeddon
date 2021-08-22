@@ -31,7 +31,7 @@ protected:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Components")
 	UCameraComponent* Camera;
 
-	float _targetForwardAxisValue;
+	float TargetForwardAxisValue;
 
 public:
 	// Sets default values for this pawn's properties
@@ -39,7 +39,6 @@ public:
 
 	UFUNCTION()
 	void MoveForward(float AxisValue);
-	void MoveRight(float AxisValue);
 
 protected:
 	// Called when the game starts or when spawned
