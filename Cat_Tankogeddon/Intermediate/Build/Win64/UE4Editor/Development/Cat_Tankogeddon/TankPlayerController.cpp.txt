@@ -1,0 +1,3 @@
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Cat_Tankogeddon\Definitions.Cat_Tankogeddon.h
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon\TankPlayerController.h
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Inc\Cat_Tankogeddon\TankPlayerController.generated.h

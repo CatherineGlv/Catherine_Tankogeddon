@@ -1,0 +1,5 @@
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\DebugGame\Cat_Tankogeddon\Definitions.Cat_Tankogeddon.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon/TankPawn.h
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Inc\Cat_Tankogeddon\TankPawn.generated.h

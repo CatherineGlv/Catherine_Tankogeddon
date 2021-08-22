@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Cat_Tankogeddon.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B58C1039-6085-4EEB-9EAA-C94D3700A527}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Cat_Tankogeddon.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Cat_TankogeddonEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{CDA36EF1-4B54-4836-A2F5-C7F294BD4D09}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Cat_Tankogeddon">
+      <UniqueIdentifier>{75967638-9A75-41AE-A8E9-28AF72E1042B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Cat_Tankogeddon\Cat_Tankogeddon.Build.cs">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\Cat_Tankogeddon.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\Cat_Tankogeddon.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\Cat_TankogeddonGameModeBase.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\Cat_TankogeddonGameModeBase.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\TankPawn.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\TankPawn.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Cat_Tankogeddon\TankPlayerController.cpp">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Cat_Tankogeddon\TankPlayerController.h">
+      <Filter>Source\Cat_Tankogeddon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

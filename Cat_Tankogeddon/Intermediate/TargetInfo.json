@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Cat_Tankogeddon",
+			"Path": "C:\\Users\\Catherine\\Documents\\GeekBrains\\Catherine_Tankogeddon\\Cat_Tankogeddon\\Source\\Cat_Tankogeddon.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Cat_TankogeddonEditor",
+			"Path": "C:\\Users\\Catherine\\Documents\\GeekBrains\\Catherine_Tankogeddon\\Cat_Tankogeddon\\Source\\Cat_TankogeddonEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
