@@ -26,7 +26,3 @@ void ATankPlayerController::MoveForward(float AxisValue)
 	TankPawn->MoveForward(AxisValue);
 }
 
-void ATankPlayerController::MoveRight(float AxisValue)
-{
-	TankPawn->MoveRight(AxisValue);
-}
