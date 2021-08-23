@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankPlayerController); \
 
 
 #define Cat_Tankogeddon_Source_Cat_Tankogeddon_TankPlayerController_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__TankPawn() { return STRUCT_OFFSET(ATankPlayerController, TankPawn); }
+	FORCEINLINE static uint32 __PPO__TankPawn() { return STRUCT_OFFSET(ATankPlayerController, TankPawn); } \
+	FORCEINLINE static uint32 __PPO__MousePos() { return STRUCT_OFFSET(ATankPlayerController, MousePos); }
 
 
 #define Cat_Tankogeddon_Source_Cat_Tankogeddon_TankPlayerController_h_14_PROLOG
