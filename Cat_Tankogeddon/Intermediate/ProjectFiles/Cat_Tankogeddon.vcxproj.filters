@@ -53,9 +53,6 @@
     <ClInclude Include="..\..\Source\Cat_Tankogeddon\Cat_TankogeddonGameModeBase.h">
       <Filter>Source\Cat_Tankogeddon</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Cat_Tankogeddon\GameStructs.cpp">
-      <Filter>Source\Cat_Tankogeddon</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\Cat_Tankogeddon\GameStructs.h">
       <Filter>Source\Cat_Tankogeddon</Filter>
     </ClInclude>
