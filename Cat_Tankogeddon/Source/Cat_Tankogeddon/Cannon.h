@@ -11,7 +11,7 @@ class UStaticMeshComponent;
 class UArrowComponent;
 
 UCLASS()
-class TANKOGEDDON_API ACannon : public AActor
+class CAT_TANKOGEDDON_API ACannon : public AActor
 {
     GENERATED_BODY()
 

@@ -13,7 +13,7 @@ class ATankPlayerController;
  * Main game player controller
  */
 UCLASS()
-class TANKOGEDDON_API ATankPlayerController : public APlayerController
+class CAT_TANKOGEDDON_API ATankPlayerController : public APlayerController
 {
     GENERATED_BODY()
 

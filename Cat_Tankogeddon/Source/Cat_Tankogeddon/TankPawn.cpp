@@ -66,6 +66,11 @@ void ATankPawn::SetupCannon()
         Cannon = nullptr;
     }
 
+    if (!CannonClass)
+    {
+        return
+    }
+
     FActorSpawnParameters Params;
     Params.Instigator = this;
     Params.Owner = this;
