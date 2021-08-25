@@ -7,24 +7,32 @@
 #include "TankPlayerController.generated.h"
 
 class ATankPawn;
+class ATankPlayerController;
 
 /**
- * 
+ * Main game player controller
  */
 UCLASS()
 class CAT_TANKOGEDDON_API ATankPlayerController : public APlayerController
 {
-	GENERATED_BODY()
-	
+    GENERATED_BODY()
+
 protected:
-	UPROPERTY()
-	ATankPawn* TankPawn;
+    UPROPERTY()
+        ATankPawn* TankPawn;
+
+    UPROPERTY()
+        FVector MousePos;
 
 public:
-	ATankPlayerController();
-	virtual void SetupInputComponent() override;
+    ATankPlayerController();
+    virtual void SetupInputComponent() override;
+    virtual void Tick(float DeltaTime) override;
+    FVector GetMousePos() { return MousePos; };
 
 protected:
-	virtual void BeginPlay() override;
-	void MoveForward(float AxisValue);
+    virtual void BeginPlay() override;
+    void MoveForward(float AxisValue);
+    void RotateRight(float AxisValue);
+    void Fire();
 };

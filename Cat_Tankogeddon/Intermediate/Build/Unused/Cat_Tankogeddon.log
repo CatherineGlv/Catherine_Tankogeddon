@@ -1,12 +1,13 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon).
   Building Cat_TankogeddonEditor...
   Using Visual Studio 2019 14.29.30038 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] TankPawn.cpp
-    [2/4] UE4Editor-Cat_Tankogeddon.lib
-       Создается библиотека C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Cat_Tankogeddon\UE4Editor-Cat_Tankogeddon.lib и объект C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Cat_Tankogeddon\UE4Editor-Cat_Tankogeddon.exp
-    [3/4] UE4Editor-Cat_Tankogeddon.dll
-       Создается библиотека C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Cat_Tankogeddon\UE4Editor-Cat_Tankogeddon.suppressed.lib и объект C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Intermediate\Build\Win64\UE4Editor\Development\Cat_Tankogeddon\UE4Editor-Cat_Tankogeddon.suppressed.exp
-    [4/4] Cat_TankogeddonEditor.target
-  Total time in Parallel executor: 1,46 seconds
-  Total execution time: 2,05 seconds
+  Building 6 actions with 8 processes...
+    [1/6] TankPlayerController.cpp
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon\TankPawn.h(71): error C2059: синтаксическая ошибка: }
+    [2/6] TankPawn.gen.cpp
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon/TankPawn.h(71): error C2059: синтаксическая ошибка: }
+    [3/6] TankPawn.cpp
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon\TankPawn.h(71): error C2059: синтаксическая ошибка: }
+C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon\TankPawn.cpp(62): error C2084: функция "void ATankPawn::SetupCannon(void)" уже имеет текст реализации
+    C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Source\Cat_Tankogeddon\TankPawn.h(66): note: см. предыдущее определение "SetupCannon"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: выход из команды ""C:\Program Files\Epic Games\UE_4.26\Engine\Build\BatchFiles\Build.bat" Cat_TankogeddonEditor Win64 Development -Project="C:\Users\Catherine\Documents\GeekBrains\Catherine_Tankogeddon\Cat_Tankogeddon\Cat_Tankogeddon.uproject" -WaitMutex -FromMsBuild" с кодом 6.
