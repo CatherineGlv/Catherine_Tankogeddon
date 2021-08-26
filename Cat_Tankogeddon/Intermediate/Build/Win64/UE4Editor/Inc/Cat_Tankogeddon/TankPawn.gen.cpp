@@ -25,6 +25,13 @@ void EmptyLinkFunctionForGeneratedCodeTankPawn() {}
 	CAT_TANKOGEDDON_API UClass* Z_Construct_UClass_ACannon_NoRegister();
 	CAT_TANKOGEDDON_API UClass* Z_Construct_UClass_ATankPlayerController_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ATankPawn::execSetupCannon)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->SetupCannon();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ATankPawn::execFire)
 	{
 		P_FINISH;
@@ -55,6 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPawn() {}
 			{ "Fire", &ATankPawn::execFire },
 			{ "MoveForward", &ATankPawn::execMoveForward },
 			{ "RotateRight", &ATankPawn::execRotateRight },
+			{ "SetupCannon", &ATankPawn::execSetupCannon },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -144,6 +152,28 @@ void EmptyLinkFunctionForGeneratedCodeTankPawn() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ATankPawn_SetupCannon_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATankPawn_SetupCannon_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "TankPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ATankPawn_SetupCannon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATankPawn, nullptr, "SetupCannon", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATankPawn_SetupCannon_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATankPawn_SetupCannon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ATankPawn_SetupCannon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ATankPawn_SetupCannon_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ATankPawn_NoRegister()
 	{
 		return ATankPawn::StaticClass();
@@ -215,6 +245,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPawn() {}
 		{ &Z_Construct_UFunction_ATankPawn_Fire, "Fire" }, // 3648692876
 		{ &Z_Construct_UFunction_ATankPawn_MoveForward, "MoveForward" }, // 2478646255
 		{ &Z_Construct_UFunction_ATankPawn_RotateRight, "RotateRight" }, // 3524979340
+		{ &Z_Construct_UFunction_ATankPawn_SetupCannon, "SetupCannon" }, // 449391405
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankPawn_Statics::Class_MetaDataParams[] = {
@@ -351,7 +382,7 @@ void EmptyLinkFunctionForGeneratedCodeTankPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankPawn, 2159722815);
+	IMPLEMENT_CLASS(ATankPawn, 3250518312);
 	template<> CAT_TANKOGEDDON_API UClass* StaticClass<ATankPawn>()
 	{
 		return ATankPawn::StaticClass();

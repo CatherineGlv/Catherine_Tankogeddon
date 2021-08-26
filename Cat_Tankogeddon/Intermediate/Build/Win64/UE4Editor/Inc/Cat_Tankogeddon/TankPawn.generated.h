@@ -16,6 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Cat_Tankogeddon_Source_Cat_Tankogeddon_TankPawn_h_20_SPARSE_DATA
 #define Cat_Tankogeddon_Source_Cat_Tankogeddon_TankPawn_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetupCannon); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execRotateRight); \
 	DECLARE_FUNCTION(execMoveForward);
@@ -23,6 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Cat_Tankogeddon_Source_Cat_Tankogeddon_TankPawn_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSetupCannon); \
 	DECLARE_FUNCTION(execFire); \
 	DECLARE_FUNCTION(execRotateRight); \
 	DECLARE_FUNCTION(execMoveForward);
