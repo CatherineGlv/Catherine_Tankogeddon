@@ -70,6 +70,9 @@ public:
     UFUNCTION()
         void Fire();
 
+    UFUNCTION()
+        void SetupCannon();
+
 private:
     float TargetForwardAxisValue = 0.f;
     float TargetRightAxisValue = 0.f;

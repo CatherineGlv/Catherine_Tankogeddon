@@ -68,7 +68,7 @@ void ATankPawn::SetupCannon()
 
     if (!CannonClass)
     {
-        return
+        return;
     }
 
     FActorSpawnParameters Params;
