@@ -71,7 +71,7 @@ public:
         void Fire();
 
     UFUNCTION()
-        void SetupCannon();
+        void SetupCannon(TSubclassOf<ACannon> InCannocClass);
 
 private:
     float TargetForwardAxisValue = 0.f;

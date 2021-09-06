@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Projectile.generated.h"
 
+class USceneComponent;
 class UStaticMeshComponent;
 
 UCLASS()
@@ -14,6 +15,9 @@ class CAT_TANKOGEDDON_API AProjectile : public AActor
     GENERATED_BODY()
 
 protected:
+    UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Components")
+    USceneComponent* Root;
+
     UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite, Category = "Components")
     UStaticMeshComponent* Mesh;
 

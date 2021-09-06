@@ -55,10 +55,10 @@ void ATankPawn::BeginPlay()
     Super::BeginPlay();
 
     TankController = Cast<ATankPlayerController>(GetController());
-    SetupCannon();
+    SetupCannon(CannonClass);
 }
 
-void ATankPawn::SetupCannon()
+void ATankPawn::SetupCannon(TSubclassOf<ACannon> InCannocClass)
 {
     if (Cannon)
     {
@@ -66,7 +66,7 @@ void ATankPawn::SetupCannon()
         Cannon = nullptr;
     }
 
-    if (!CannonClass)
+    if (!InCannocClass)
     {
         return;
     }
